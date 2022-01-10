@@ -21,8 +21,8 @@ So in your case, its Uncapped, so we read the Online Virtual CPUs : 1
 So 1 vcpu is the answer.
 ```  
 
-Check the Lpar setup configure:
-`lpar -i`
+Check the Lpar setup configure:  
+`lparstat -i`
 
 
 Ref: https://www.ibm.com/mysupport/s/question/0D50z00005pf42uCAA/how-many-vcpus-my-lpar-will-can-use?language=en_US  
